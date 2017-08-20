@@ -17,37 +17,37 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: codecoms.com
+title: Tom's Blog
 
 # Short description of your site
-description: The sound of one byte happening
+description: My blog, plain and simple.
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/images/codecoms-small.png"
+#avatar: "/images/codecoms-small.png"
 
 # List of links in the navigation bar
 navbar-links:
-  About: about.html
-  Github: "https://github.com/codecoms"
-  Disclaimer: disclaimer.html
+  #About: about.html
+  Github: "https://github.com/atxcoder"
+  #Disclaimer: disclaimer.html
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Codecoms
-  github: codecoms    # eg. daattali
-  twitter: codecoms   # eg. daattali
+  name: Thomas
+  github: atxcoder    # eg. daattali
+  twitter: thomassloan   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
   rss: true
   facebook: false
-  email: true
+  email: false
   twitter: true
   github: true
   linkedin: false
@@ -63,12 +63,12 @@ footer-links-active:
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-71883920-1"
+#google_analytics: "UA-71883920-1"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Chicago"
 markdown: kramdown
 highlighter: pygments
 permalink: /:year-:month-:day-:title
